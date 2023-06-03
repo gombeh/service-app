@@ -1,0 +1,1041 @@
+ Horizon started successfully.
+     2023-05-27 09:28:49 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-27 09:28:49 App\Events\ServiceUpdated ................. 86.88ms DONE
+    2023-05-27 09:42:15 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-27 09:42:15 App\Events\ServiceUpdated ................ 103.72ms DONE
+  
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ 
+   ErrorException 
+
+  Undefined array key "connection"
+
+  at /var/www/service-app/vendor/laravel/horizon/src/SupervisorOptions.php:351
+    347▕      * @return static
+    348▕      */
+    349▕     public static function fromArray(array $array)
+    350▕     {
+  ➜ 351▕         return tap(new static($array['name'], $array['connection']), function ($options) use ($array) {
+    352▕             foreach ($array as $key => $value) {
+    353▕                 $options->{$key} = $value;
+    354▕             }
+    355▕         });
+
+      [2m+23 vendor frames [22m
+  24  /var/www/service-app/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+ Horizon started successfully.
+       2023-05-27 09:52:19 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-27 09:52:19 App\Events\ServiceCreated ................ 141.78ms DONE
+  2023-05-27 10:32:30 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-27 10:32:30 App\Events\ServiceCreated ................. 70.76ms DONE
+  2023-05-27 10:32:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-27 10:32:48 App\Events\ServiceUpdated ................. 77.02ms DONE
+  2023-05-27 10:34:32 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-27 10:34:32 App\Events\ServiceUpdated ................. 80.32ms DONE
+  2023-05-27 10:36:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-27 10:36:11 App\Events\ServiceUpdated ................. 97.20ms DONE
+ Horizon started successfully.
+       2023-05-27 10:36:19 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-27 10:36:19 App\Events\ServiceUpdated ................ 104.95ms DONE
+   Horizon started successfully.
+       2023-05-28 08:59:56 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 08:59:56 App\Events\ServiceUpdated ................. 80.65ms DONE
+  2023-05-28 08:59:59 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 08:59:59 App\Events\ServiceUpdated ................. 86.21ms DONE
+  2023-05-28 08:59:59 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 08:59:59 App\Events\ServiceUpdated ................. 69.46ms DONE
+  2023-05-28 08:59:59 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 08:59:59 App\Events\ServiceUpdated ................. 65.81ms DONE
+  2023-05-28 09:13:48 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 09:13:48 App\Events\ServiceCreated ................. 98.49ms DONE
+  2023-05-28 09:14:48 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 09:14:48 App\Events\ServiceCreated ................ 102.91ms DONE
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ................. 88.67ms DONE
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ................. 76.08ms DONE
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ................. 73.88ms DONE
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:14:51 App\Events\ServiceUpdated ................. 52.77ms DONE
+  2023-05-28 09:14:57 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 09:14:58 App\Events\ServiceCreated ................. 62.56ms DONE
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ................. 92.68ms DONE
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ................. 60.08ms DONE
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ................. 58.98ms DONE
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 09:17:55 App\Events\ServiceUpdated ................ 103.41ms DONE
+  2023-05-28 10:10:04 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 10:10:04 App\Events\ServiceCreated ................. 87.30ms DONE
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ................. 86.64ms DONE
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ................. 73.67ms DONE
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ................. 60.73ms DONE
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:10:07 App\Events\ServiceUpdated ................. 52.80ms DONE
+  2023-05-28 10:19:08 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 10:19:08 App\Events\ServiceCreated ................. 58.60ms DONE
+  2023-05-28 10:26:53 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:26:53 App\Events\ServiceUpdated ................. 93.84ms DONE
+  2023-05-28 10:26:56 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:26:56 App\Events\ServiceUpdated ................. 80.75ms DONE
+  2023-05-28 10:26:56 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 10:26:56 App\Events\ServiceUpdated ................. 66.21ms DONE
+  2023-05-28 10:27:02 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 10:27:02 App\Events\ServiceCreated ................. 71.85ms DONE
+  2023-05-28 11:40:14 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 11:40:14 App\Events\ServiceCreated ................ 117.09ms DONE
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ................ 149.97ms DONE
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ................. 67.27ms DONE
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ................. 61.31ms DONE
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:11 App\Events\ServiceUpdated ................. 73.35ms DONE
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ................. 70.89ms DONE
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ................. 68.34ms DONE
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ................. 67.75ms DONE
+  2023-05-28 13:12:20 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:12:21 App\Events\ServiceUpdated ................. 60.11ms DONE
+  2023-05-28 13:18:36 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-28 13:18:36 App\Events\ServiceUpdated ................. 74.43ms DONE
+  2023-05-28 13:18:39 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-28 13:18:39 App\Events\ServiceCreated ................. 74.05ms DONE
+ Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+       2023-05-29 10:31:51 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-29 10:31:51 App\Events\ServiceCreated ................ 104.73ms DONE
+ Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+       2023-05-29 11:17:26 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-29 11:17:26 App\Events\ServiceCreated ................. 96.16ms DONE
+  2023-05-29 11:24:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 11:24:38 App\Events\ServiceUpdated ................. 64.98ms DONE
+  2023-05-29 11:24:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 11:24:38 App\Events\ServiceUpdated ................. 59.56ms DONE
+  2023-05-29 11:24:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 11:24:38 App\Events\ServiceUpdated ................. 59.84ms DONE
+  2023-05-29 13:00:57 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:00:57 App\Events\ServiceUpdated ................. 81.03ms DONE
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ................. 53.40ms DONE
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ................. 69.98ms DONE
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ................. 52.87ms DONE
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:01:00 App\Events\ServiceUpdated ................. 53.00ms DONE
+  2023-05-29 13:07:40 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:40 App\Events\ServiceUpdated ................. 77.32ms DONE
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ................. 50.93ms DONE
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ................. 57.28ms DONE
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ................. 56.17ms DONE
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ................. 47.30ms DONE
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:43 App\Events\ServiceUpdated ................. 47.27ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 73.88ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 60.75ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 49.53ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 49.86ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 50.14ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 47.48ms DONE
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-29 13:07:46 App\Events\ServiceUpdated ................. 48.53ms DONE
+  2023-05-29 13:41:00 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-29 13:41:01 App\Events\ServiceCreated ................. 69.18ms DONE
+  2023-05-29 13:41:37 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-29 13:41:37 App\Events\ServiceCreated ................. 81.50ms DONE
+ Horizon started successfully.
+       2023-05-30 05:58:10 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 05:58:10 App\Events\ServiceUpdated ................. 95.35ms DONE
+  2023-05-30 05:58:16 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 05:58:16 App\Events\ServiceUpdated ................. 85.17ms DONE
+  2023-05-30 06:33:53 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:33:53 App\Events\ServiceUpdated ................. 78.08ms DONE
+  2023-05-30 06:34:41 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:34:41 App\Events\ServiceUpdated ................. 52.15ms DONE
+  2023-05-30 06:34:47 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:34:47 App\Events\ServiceUpdated ................. 80.35ms DONE
+  2023-05-30 06:35:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:35:38 App\Events\ServiceUpdated ................. 83.38ms DONE
+  2023-05-30 06:45:27 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:45:27 App\Events\ServiceUpdated ................. 51.38ms DONE
+  2023-05-30 06:45:27 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:45:27 App\Events\ServiceUpdated ................. 49.61ms DONE
+  2023-05-30 06:46:36 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:46:36 App\Events\ServiceUpdated ................. 74.49ms DONE
+  2023-05-30 06:46:42 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:46:42 App\Events\ServiceUpdated ................. 84.00ms DONE
+  2023-05-30 06:47:00 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:47:00 App\Events\ServiceUpdated ................. 86.84ms DONE
+  2023-05-30 06:47:15 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:47:15 App\Events\ServiceUpdated ................. 94.44ms DONE
+  2023-05-30 06:47:57 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:47:57 App\Events\ServiceUpdated ................. 73.72ms DONE
+  2023-05-30 06:48:09 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:48:09 App\Events\ServiceUpdated ................. 89.90ms DONE
+  2023-05-30 06:48:30 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:48:31 App\Events\ServiceUpdated ................. 93.78ms DONE
+  2023-05-30 06:49:25 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 06:49:25 App\Events\ServiceUpdated ................ 144.04ms DONE
+  2023-05-30 07:31:15 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:31:15 App\Events\ServiceCreated ................. 80.30ms DONE
+  2023-05-30 07:31:18 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:18 App\Events\ServiceUpdated ................. 63.08ms DONE
+  2023-05-30 07:31:18 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:18 App\Events\ServiceUpdated ................. 51.14ms DONE
+  2023-05-30 07:31:18 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:19 App\Events\ServiceUpdated ................. 45.81ms DONE
+  2023-05-30 07:31:19 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:19 App\Events\ServiceUpdated ................. 49.52ms DONE
+  2023-05-30 07:31:43 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:31:43 App\Events\ServiceCreated ................. 65.82ms DONE
+  2023-05-30 07:31:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:46 App\Events\ServiceUpdated ................ 111.44ms DONE
+  2023-05-30 07:31:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:46 App\Events\ServiceUpdated ................. 79.62ms DONE
+  2023-05-30 07:31:49 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:49 App\Events\ServiceUpdated ................. 73.82ms DONE
+  2023-05-30 07:31:49 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:31:49 App\Events\ServiceUpdated ................. 62.27ms DONE
+  2023-05-30 07:32:25 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:32:25 App\Events\ServiceCreated ................. 68.98ms DONE
+  2023-05-30 07:32:31 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:32:31 App\Events\ServiceUpdated ................. 71.95ms DONE
+  2023-05-30 07:33:10 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:33:10 App\Events\ServiceUpdated ................. 87.31ms DONE
+  2023-05-30 07:33:13 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:33:13 App\Events\ServiceUpdated ................. 62.65ms DONE
+  2023-05-30 07:33:16 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:33:16 App\Events\ServiceUpdated ................. 88.28ms DONE
+  2023-05-30 07:33:19 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:33:20 App\Events\ServiceUpdated ................. 56.27ms DONE
+  2023-05-30 07:33:47 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:33:47 App\Events\ServiceCreated ................. 70.59ms DONE
+  2023-05-30 07:33:53 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:33:53 App\Events\ServiceUpdated ................. 59.06ms DONE
+  2023-05-30 07:34:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:34:11 App\Events\ServiceUpdated ................. 91.77ms DONE
+  2023-05-30 07:35:14 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:35:14 App\Events\ServiceUpdated ................. 58.73ms DONE
+  2023-05-30 07:35:35 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:35:35 App\Events\ServiceUpdated ................. 90.68ms DONE
+  2023-05-30 07:35:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:35:38 App\Events\ServiceUpdated ................. 53.01ms DONE
+  2023-05-30 07:35:47 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:35:47 App\Events\ServiceCreated ................. 72.38ms DONE
+  2023-05-30 07:36:02 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:36:02 App\Events\ServiceCreated ................. 69.06ms DONE
+  2023-05-30 07:36:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:36:11 App\Events\ServiceUpdated ................ 107.00ms DONE
+  2023-05-30 07:36:11 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:36:12 App\Events\ServiceUpdated ................. 95.36ms DONE
+  2023-05-30 07:36:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:36:51 App\Events\ServiceUpdated ................ 104.17ms DONE
+  2023-05-30 07:39:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:39:39 App\Events\ServiceUpdated ................. 92.87ms DONE
+  2023-05-30 07:39:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:39:39 App\Events\ServiceUpdated ................. 63.33ms DONE
+  2023-05-30 07:39:45 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:39:45 App\Events\ServiceUpdated ................. 72.10ms DONE
+  2023-05-30 07:39:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:39:48 App\Events\ServiceUpdated ................. 66.57ms DONE
+  2023-05-30 07:41:15 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:41:15 App\Events\ServiceUpdated ................. 97.50ms DONE
+  2023-05-30 07:41:21 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:41:21 App\Events\ServiceCreated ................ 112.93ms DONE
+  2023-05-30 07:41:24 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:41:25 App\Events\ServiceUpdated ................ 125.30ms DONE
+  2023-05-30 07:41:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:41:28 App\Events\ServiceUpdated ................. 68.52ms DONE
+  2023-05-30 07:41:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:41:28 App\Events\ServiceUpdated ................. 50.99ms DONE
+  2023-05-30 07:41:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:41:28 App\Events\ServiceUpdated ................. 61.68ms DONE
+  2023-05-30 07:42:16 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:42:16 App\Events\ServiceCreated ................. 82.74ms DONE
+  2023-05-30 07:42:19 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:42:19 App\Events\ServiceUpdated ................. 86.56ms DONE
+  2023-05-30 07:42:22 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:42:22 App\Events\ServiceUpdated ................. 97.34ms DONE
+  2023-05-30 07:42:25 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:42:25 App\Events\ServiceUpdated ................. 73.54ms DONE
+  2023-05-30 07:42:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:42:28 App\Events\ServiceUpdated ................. 59.42ms DONE
+  2023-05-30 07:49:41 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:49:41 App\Events\ServiceCreated ................. 59.85ms DONE
+  2023-05-30 07:49:59 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:49:59 App\Events\ServiceCreated ................. 57.04ms DONE
+  2023-05-30 07:50:26 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 07:50:26 App\Events\ServiceCreated ................. 65.07ms DONE
+  2023-05-30 07:50:35 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:50:35 App\Events\ServiceUpdated ................. 77.87ms DONE
+  2023-05-30 07:50:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:50:38 App\Events\ServiceUpdated ................. 82.45ms DONE
+  2023-05-30 07:50:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 07:50:38 App\Events\ServiceUpdated ................. 58.95ms DONE
+  2023-05-30 08:15:28 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 08:15:28 App\Events\ServiceCreated ................. 58.17ms DONE
+  2023-05-30 08:15:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:15:28 App\Events\ServiceUpdated ................. 56.41ms DONE
+  2023-05-30 08:15:31 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:15:31 App\Events\ServiceUpdated ................. 78.86ms DONE
+  2023-05-30 08:15:31 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:15:31 App\Events\ServiceUpdated ................. 51.89ms DONE
+  2023-05-30 08:15:52 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:15:52 App\Events\ServiceUpdated ................. 99.64ms DONE
+  2023-05-30 08:16:43 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:16:43 App\Events\ServiceUpdated ................. 79.55ms DONE
+  2023-05-30 08:29:35 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 08:29:35 App\Events\ServiceCreated ................. 73.98ms DONE
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ................. 84.12ms DONE
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ................. 63.95ms DONE
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ................. 60.98ms DONE
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:29:41 App\Events\ServiceUpdated ................. 46.10ms DONE
+  2023-05-30 08:42:57 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 08:42:57 App\Events\ServiceCreated ................. 95.00ms DONE
+  2023-05-30 08:43:57 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:43:57 App\Events\ServiceUpdated ................. 85.64ms DONE
+  2023-05-30 08:44:06 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:06 App\Events\ServiceUpdated ................. 77.55ms DONE
+  2023-05-30 08:44:09 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:09 App\Events\ServiceUpdated ................. 99.15ms DONE
+  2023-05-30 08:44:09 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:09 App\Events\ServiceUpdated ................. 52.14ms DONE
+  2023-05-30 08:44:21 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 08:44:22 App\Events\ServiceCreated ................ 157.87ms DONE
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ................. 72.69ms DONE
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ................. 53.06ms DONE
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ................. 53.25ms DONE
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 08:44:28 App\Events\ServiceUpdated ................. 47.43ms DONE
+  2023-05-30 11:46:49 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 11:46:49 App\Events\ServiceUpdated ................ 127.30ms DONE
+  2023-05-30 12:07:27 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:07:27 App\Events\ServiceUpdated ................. 79.89ms DONE
+  2023-05-30 12:07:27 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:07:27 App\Events\ServiceUpdated ................. 55.67ms DONE
+  2023-05-30 12:07:27 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:07:27 App\Events\ServiceUpdated ................. 55.62ms DONE
+  2023-05-30 12:07:30 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:07:30 App\Events\ServiceUpdated ................ 104.20ms DONE
+  2023-05-30 12:07:33 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:07:33 App\Events\ServiceUpdated ................. 93.88ms DONE
+  2023-05-30 12:14:45 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 12:14:45 App\Events\ServiceCreated ................ 104.49ms DONE
+  2023-05-30 12:15:30 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 12:15:31 App\Events\ServiceCreated ................. 71.24ms DONE
+  2023-05-30 12:15:37 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:15:37 App\Events\ServiceUpdated ................. 47.78ms DONE
+  2023-05-30 12:15:40 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:15:40 App\Events\ServiceUpdated ................. 84.73ms DONE
+  2023-05-30 12:15:40 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:15:40 App\Events\ServiceUpdated ................. 68.48ms DONE
+  2023-05-30 12:15:40 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:15:40 App\Events\ServiceUpdated ................ 121.85ms DONE
+  2023-05-30 12:15:46 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 12:15:46 App\Events\ServiceCreated ................. 70.13ms DONE
+  2023-05-30 12:43:24 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:43:24 App\Events\ServiceUpdated ................. 75.60ms DONE
+  2023-05-30 12:43:24 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:43:24 App\Events\ServiceUpdated ................. 55.81ms DONE
+  2023-05-30 12:43:24 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:43:24 App\Events\ServiceUpdated ................. 53.25ms DONE
+  2023-05-30 12:48:48 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-30 12:48:48 App\Events\ServiceCreated ................. 96.20ms DONE
+  2023-05-30 12:53:21 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 12:53:21 App\Events\ServiceUpdated ................ 167.36ms DONE
+  2023-05-30 13:10:23 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 13:10:23 App\Events\ServiceUpdated ................. 55.66ms DONE
+  2023-05-30 13:10:23 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 13:10:24 App\Events\ServiceUpdated ................. 48.69ms DONE
+  2023-05-30 13:10:24 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-30 13:10:24 App\Events\ServiceUpdated ................. 45.20ms DONE
+ Horizon started successfully.
+       2023-05-31 09:07:34 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 09:07:34 App\Events\ServiceCreated ................ 108.47ms DONE
+  2023-05-31 09:12:38 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 09:12:38 App\Events\ServiceCreated ................. 71.35ms DONE
+  2023-05-31 10:00:51 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 10:00:51 App\Events\ServiceCreated ................. 89.41ms DONE
+  2023-05-31 10:09:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 10:09:48 App\Events\ServiceUpdated ................. 61.00ms DONE
+  2023-05-31 10:09:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 10:09:52 App\Events\ServiceUpdated ................ 128.30ms DONE
+  2023-05-31 12:15:31 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:15:31 App\Events\ServiceUpdated ................ 104.05ms DONE
+  2023-05-31 12:15:31 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:15:31 App\Events\ServiceUpdated ................. 58.95ms DONE
+  2023-05-31 12:24:11 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 12:24:11 App\Events\ServiceCreated ................. 93.38ms DONE
+  2023-05-31 12:44:33 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:44:33 App\Events\ServiceUpdated ................ 112.50ms DONE
+  2023-05-31 12:44:57 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:44:57 App\Events\ServiceUpdated ................. 55.38ms DONE
+  2023-05-31 12:46:18 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 12:46:18 App\Events\ServiceCreated ................. 76.39ms DONE
+  2023-05-31 12:46:24 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:46:24 App\Events\ServiceUpdated ................. 80.08ms DONE
+  2023-05-31 12:51:03 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ................. 74.61ms DONE
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ................. 50.48ms DONE
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ................. 56.39ms DONE
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ................. 56.90ms DONE
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 12:51:04 App\Events\ServiceUpdated ................. 58.85ms DONE
+  2023-05-31 13:21:49 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:21:49 App\Events\ServiceCreated ................. 62.46ms DONE
+  2023-05-31 13:31:32 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:31:32 App\Events\ServiceCreated ................. 59.78ms DONE
+  2023-05-31 13:33:17 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:33:17 App\Events\ServiceUpdated ................. 75.36ms DONE
+  2023-05-31 13:33:17 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:33:17 App\Events\ServiceUpdated ................. 79.92ms DONE
+  2023-05-31 13:33:35 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:33:35 App\Events\ServiceUpdated ................. 87.75ms DONE
+  2023-05-31 13:33:59 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:33:59 App\Events\ServiceCreated ................. 53.33ms DONE
+  2023-05-31 13:43:42 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:43:42 App\Events\ServiceCreated ................. 72.30ms DONE
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ................. 85.42ms DONE
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ................. 81.85ms DONE
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ................. 56.96ms DONE
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:48 App\Events\ServiceUpdated ................. 45.13ms DONE
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ................. 60.19ms DONE
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ................. 54.52ms DONE
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ................. 54.22ms DONE
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ................. 89.79ms DONE
+  2023-05-31 13:43:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:52 App\Events\ServiceUpdated ................. 68.38ms DONE
+  2023-05-31 13:43:52 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:43:52 App\Events\ServiceUpdated ................. 59.95ms DONE
+  2023-05-31 13:44:52 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:44:52 App\Events\ServiceUpdated ................. 69.75ms DONE
+  2023-05-31 13:44:52 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:44:52 App\Events\ServiceUpdated ................. 51.54ms DONE
+  2023-05-31 13:46:01 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:46:01 App\Events\ServiceUpdated ................. 51.79ms DONE
+  2023-05-31 13:46:01 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:46:01 App\Events\ServiceUpdated ................. 53.86ms DONE
+  2023-05-31 13:50:04 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:50:04 App\Events\ServiceCreated ................. 72.89ms DONE
+  2023-05-31 13:50:16 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:50:16 App\Events\ServiceUpdated ................. 51.05ms DONE
+  2023-05-31 13:50:16 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:50:16 App\Events\ServiceUpdated ................. 52.00ms DONE
+  2023-05-31 13:51:25 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:51:26 App\Events\ServiceUpdated ................. 76.02ms DONE
+  2023-05-31 13:51:26 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:51:26 App\Events\ServiceUpdated ................. 60.20ms DONE
+  2023-05-31 13:53:44 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:53:44 App\Events\ServiceCreated ................ 125.34ms DONE
+  2023-05-31 13:53:50 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:53:50 App\Events\ServiceUpdated ................. 80.94ms DONE
+  2023-05-31 13:53:50 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:53:50 App\Events\ServiceUpdated ................. 55.78ms DONE
+  2023-05-31 13:56:50 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:56:50 App\Events\ServiceUpdated ................. 65.42ms DONE
+  2023-05-31 13:56:50 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:56:50 App\Events\ServiceUpdated ................. 59.00ms DONE
+  2023-05-31 13:56:59 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 13:56:59 App\Events\ServiceCreated ................. 54.37ms DONE
+  2023-05-31 13:57:02 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:57:03 App\Events\ServiceUpdated ................. 79.46ms DONE
+  2023-05-31 13:59:12 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:59:12 App\Events\ServiceUpdated ................. 75.60ms DONE
+  2023-05-31 13:59:12 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 13:59:12 App\Events\ServiceUpdated ................. 63.86ms DONE
+  2023-05-31 14:02:03 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:02:03 App\Events\ServiceUpdated ................. 60.44ms DONE
+  2023-05-31 14:05:36 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 14:05:36 App\Events\ServiceCreated ................. 59.97ms DONE
+  2023-05-31 14:05:51 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:05:51 App\Events\ServiceUpdated ................. 90.88ms DONE
+  2023-05-31 14:06:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:06:40 App\Events\ServiceUpdated ................. 76.85ms DONE
+  2023-05-31 14:08:01 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:08:01 App\Events\ServiceUpdated ................. 51.25ms DONE
+  2023-05-31 14:08:01 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:08:01 App\Events\ServiceUpdated ................. 65.52ms DONE
+  2023-05-31 14:08:37 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 14:08:37 App\Events\ServiceCreated ................. 46.61ms DONE
+  2023-05-31 14:09:13 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:09:13 App\Events\ServiceUpdated ................. 88.86ms DONE
+  2023-05-31 14:09:34 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:09:34 App\Events\ServiceUpdated ................ 182.38ms DONE
+  2023-05-31 14:17:02 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:17:02 App\Events\ServiceUpdated ................. 57.52ms DONE
+  2023-05-31 14:17:02 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:17:02 App\Events\ServiceUpdated ................. 53.71ms DONE
+  2023-05-31 14:20:20 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 14:20:20 App\Events\ServiceCreated ................. 71.32ms DONE
+  2023-05-31 14:20:26 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:20:26 App\Events\ServiceUpdated ................. 59.20ms DONE
+  2023-05-31 14:21:05 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:21:05 App\Events\ServiceUpdated ................. 64.32ms DONE
+  2023-05-31 14:21:35 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:21:35 App\Events\ServiceUpdated ................. 71.96ms DONE
+  2023-05-31 14:21:38 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:21:38 App\Events\ServiceUpdated ................. 84.58ms DONE
+  2023-05-31 14:22:35 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 14:22:36 App\Events\ServiceCreated ................. 50.12ms DONE
+  2023-05-31 14:22:42 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:22:42 App\Events\ServiceUpdated ................. 80.31ms DONE
+  2023-05-31 14:24:03 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:24:03 App\Events\ServiceUpdated ................. 85.90ms DONE
+  2023-05-31 14:28:06 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:28:06 App\Events\ServiceUpdated ................. 93.11ms DONE
+  2023-05-31 14:28:36 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:28:36 App\Events\ServiceUpdated ................. 75.53ms DONE
+ Horizon started successfully.
+       2023-05-31 14:32:12 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 14:32:12 App\Events\ServiceCreated ................. 98.55ms DONE
+  2023-05-31 14:32:18 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:32:19 App\Events\ServiceUpdated ................. 82.63ms DONE
+  2023-05-31 14:32:22 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:32:22 App\Events\ServiceUpdated ................. 67.94ms DONE
+  2023-05-31 14:33:37 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:33:37 App\Events\ServiceUpdated ................. 73.19ms DONE
+  2023-05-31 14:33:37 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:33:37 App\Events\ServiceUpdated ................. 55.52ms DONE
+  2023-05-31 14:33:46 App\Events\ServiceCreated ...................... RUNNING
+  2023-05-31 14:33:46 App\Events\ServiceCreated ................. 58.13ms DONE
+  2023-05-31 14:33:46 App\Events\ServiceUpdated ...................... RUNNING
+  2023-05-31 14:33:46 App\Events\ServiceUpdated ................. 57.94ms DONE
+  2023-06-03 05:48:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:48:39 App\Events\ServiceUpdated ................. 55.82ms DONE
+  2023-06-03 05:48:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:48:39 App\Events\ServiceUpdated ................. 48.18ms DONE
+  2023-06-03 05:48:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:48:39 App\Events\ServiceUpdated ................. 64.40ms DONE
+  2023-06-03 05:49:33 App\Events\ServiceCreated ...................... RUNNING
+  2023-06-03 05:49:33 App\Events\ServiceCreated ................. 95.05ms DONE
+  2023-06-03 05:49:39 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:49:40 App\Events\ServiceUpdated ................ 116.99ms DONE
+  2023-06-03 05:49:40 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:49:40 App\Events\ServiceUpdated ................. 94.43ms DONE
+  2023-06-03 05:49:52 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:49:52 App\Events\ServiceUpdated ................. 57.79ms DONE
+  2023-06-03 05:49:52 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 05:49:52 App\Events\ServiceUpdated ................. 59.26ms DONE
+  2023-06-03 06:27:39 App\Events\ServiceCreated ...................... RUNNING
+  2023-06-03 06:27:39 App\Events\ServiceCreated ................ 100.85ms DONE
+  2023-06-03 06:27:48 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:27:48 App\Events\ServiceUpdated ................. 50.80ms DONE
+  2023-06-03 06:27:57 App\Events\ServiceCreated ...................... RUNNING
+  2023-06-03 06:27:57 App\Events\ServiceCreated ................. 57.80ms DONE
+  2023-06-03 06:28:00 App\Events\ServiceCreated ...................... RUNNING
+  2023-06-03 06:28:00 App\Events\ServiceCreated ................. 95.40ms DONE
+  2023-06-03 06:28:03 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:28:03 App\Events\ServiceUpdated ................ 102.11ms DONE
+  2023-06-03 06:28:03 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:28:03 App\Events\ServiceUpdated ................. 82.37ms DONE
+  2023-06-03 06:28:03 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:28:03 App\Events\ServiceUpdated ................. 66.44ms DONE
+  2023-06-03 06:28:12 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:28:12 App\Events\ServiceUpdated ................. 60.98ms DONE
+  2023-06-03 06:28:21 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:28:21 App\Events\ServiceUpdated ................. 93.17ms DONE
+  2023-06-03 06:28:21 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:28:22 App\Events\ServiceUpdated ................. 51.89ms DONE
+  2023-06-03 06:30:10 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:30:10 App\Events\ServiceUpdated ................. 86.87ms DONE
+  2023-06-03 06:30:10 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:30:10 App\Events\ServiceUpdated ................. 97.55ms DONE
+  2023-06-03 06:30:10 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:30:10 App\Events\ServiceUpdated ................. 66.16ms DONE
+  2023-06-03 06:31:34 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:31:34 App\Events\ServiceUpdated ................. 81.42ms DONE
+  2023-06-03 06:31:34 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 06:31:34 App\Events\ServiceUpdated ................. 61.95ms DONE
+  2023-06-03 07:08:36 App\Events\ServiceCreated ...................... RUNNING
+  2023-06-03 07:08:36 App\Events\ServiceCreated ................. 97.51ms DONE
+  2023-06-03 07:08:45 App\Events\ServiceUpdated ...................... RUNNING
+  2023-06-03 07:08:45 App\Events\ServiceUpdated ................. 84.62ms DONE

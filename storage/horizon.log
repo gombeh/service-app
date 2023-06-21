@@ -1039,3 +1039,151 @@
   2023-06-03 07:08:36 App\Events\ServiceCreated ................. 97.51ms DONE
   2023-06-03 07:08:45 App\Events\ServiceUpdated ...................... RUNNING
   2023-06-03 07:08:45 App\Events\ServiceUpdated ................. 84.62ms DONE
+ Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+       2023-06-11 14:03:50 App\Events\UnsentServiceCreated ................ RUNNING
+  2023-06-11 14:03:50 App\Events\UnsentServiceCreated ........... 89.64ms FAIL
+  2023-06-11 14:04:01 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:04:01 Laravel\Telescope\Jobs\ProcessPendingUpdates  53.82ms DONE
+  2023-06-11 14:04:11 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:04:11 Laravel\Telescope\Jobs\ProcessPendingUpdates  47.93ms DONE
+  2023-06-11 14:04:23 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:04:23 Laravel\Telescope\Jobs\ProcessPendingUpdates  26.27ms DONE
+  2023-06-11 14:07:47 App\Events\UnsentServiceCreated ................ RUNNING
+  2023-06-11 14:07:47 App\Events\UnsentServiceCreated ........... 35.95ms FAIL
+  2023-06-11 14:07:59 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:07:59 Laravel\Telescope\Jobs\ProcessPendingUpdates  61.55ms DONE
+  2023-06-11 14:08:11 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:11 Laravel\Telescope\Jobs\ProcessPendingUpdates  39.38ms DONE
+  2023-06-11 14:08:14 App\Listeners\ServiceFinishedListener .......... RUNNING
+  2023-06-11 14:08:14 App\Listeners\ServiceFinishedListener ..... 27.78ms FAIL
+  2023-06-11 14:08:14 App\Events\UnsentServiceDeleted ................ RUNNING
+  2023-06-11 14:08:14 App\Events\UnsentServiceDeleted ........... 44.27ms FAIL
+  2023-06-11 14:08:14 App\Events\SentServiceCreated .................. RUNNING
+  2023-06-11 14:08:14 App\Events\SentServiceCreated ............. 21.73ms FAIL
+  2023-06-11 14:08:14 App\Events\SentServiceUpdated .................. RUNNING
+  2023-06-11 14:08:14 App\Events\SentServiceUpdated ............. 20.71ms FAIL
+  2023-06-11 14:08:23 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:23 Laravel\Telescope\Jobs\ProcessPendingUpdates  29.41ms DONE
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates  50.22ms DONE
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates  33.72ms DONE
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates  29.69ms DONE
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:26 Laravel\Telescope\Jobs\ProcessPendingUpdates  28.60ms DONE
+  2023-06-11 14:08:29 App\Listeners\ServiceFinishedListener .......... RUNNING
+  2023-06-11 14:08:29 App\Listeners\ServiceFinishedListener ..... 25.13ms FAIL
+  2023-06-11 14:08:29 App\Events\UnsentServiceDeleted ................ RUNNING
+  2023-06-11 14:08:29 App\Events\UnsentServiceDeleted ........... 21.81ms FAIL
+  2023-06-11 14:08:29 App\Events\SentServiceCreated .................. RUNNING
+  2023-06-11 14:08:29 App\Events\SentServiceCreated ............. 22.18ms FAIL
+  2023-06-11 14:08:29 App\Events\SentServiceUpdated .................. RUNNING
+  2023-06-11 14:08:29 App\Events\SentServiceUpdated ............. 39.00ms FAIL
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates  95.46ms DONE
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates  42.99ms DONE
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates  45.78ms DONE
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:38 Laravel\Telescope\Jobs\ProcessPendingUpdates  34.67ms DONE
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  28.71ms DONE
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  26.96ms DONE
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  26.40ms DONE
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  34.62ms DONE
+  2023-06-11 14:08:50 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:50 Laravel\Telescope\Jobs\ProcessPendingUpdates  40.16ms DONE
+  2023-06-11 14:08:50 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  32.70ms DONE
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  30.00ms DONE
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  28.45ms DONE
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  45.31ms DONE
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  32.25ms DONE
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  32.61ms DONE
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:08:51 Laravel\Telescope\Jobs\ProcessPendingUpdates  40.63ms DONE
+  2023-06-11 14:08:50 App\Events\UnsentServiceCreated ................ RUNNING
+  2023-06-11 14:08:50 App\Events\UnsentServiceCreated ........... 40.46ms FAIL
+  2023-06-11 14:09:00 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:00 Laravel\Telescope\Jobs\ProcessPendingUpdates  64.48ms DONE
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates  107.59ms DONE
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates  113.03ms DONE
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates  101.85ms DONE
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:03 Laravel\Telescope\Jobs\ProcessPendingUpdates  62.32ms DONE
+  2023-06-11 14:09:12 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:12 Laravel\Telescope\Jobs\ProcessPendingUpdates  60.18ms DONE
+  2023-06-11 14:09:24 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:09:24 Laravel\Telescope\Jobs\ProcessPendingUpdates  30.99ms DONE
+  2023-06-11 14:27:00 App\Events\UnsentServiceUpdated ................ RUNNING
+  2023-06-11 14:27:00 App\Events\UnsentServiceUpdated ........... 53.74ms FAIL
+  2023-06-11 14:27:06 App\Events\UnsentServiceUpdated ................ RUNNING
+  2023-06-11 14:27:06 App\Events\UnsentServiceUpdated ........... 49.51ms FAIL
+  2023-06-11 14:27:07 App\Events\UnsentServiceUpdated ................ RUNNING
+  2023-06-11 14:27:07 App\Events\UnsentServiceUpdated ........... 24.50ms FAIL
+  2023-06-11 14:27:10 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:11 Laravel\Telescope\Jobs\ProcessPendingUpdates  271.59ms DONE
+  2023-06-11 14:27:17 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:17 Laravel\Telescope\Jobs\ProcessPendingUpdates  70.92ms DONE
+  2023-06-11 14:27:17 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:17 Laravel\Telescope\Jobs\ProcessPendingUpdates  38.90ms DONE
+  2023-06-11 14:27:20 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:20 Laravel\Telescope\Jobs\ProcessPendingUpdates  54.24ms DONE
+  2023-06-11 14:27:29 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:29 Laravel\Telescope\Jobs\ProcessPendingUpdates  84.36ms DONE
+  2023-06-11 14:27:29 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:29 Laravel\Telescope\Jobs\ProcessPendingUpdates  28.25ms DONE
+  2023-06-11 14:27:32 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:32 Laravel\Telescope\Jobs\ProcessPendingUpdates  40.59ms DONE
+  2023-06-11 14:27:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  88.69ms DONE
+  2023-06-11 14:27:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-11 14:27:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  109.53ms DONE
+ Horizon started successfully.
+       2023-06-12 09:01:29 App\Events\SettingsUpdated ..................... RUNNING
+  2023-06-12 09:01:29 App\Events\SettingsUpdated ................ 93.65ms FAIL
+  2023-06-12 09:01:41 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-12 09:01:41 Laravel\Telescope\Jobs\ProcessPendingUpdates  75.29ms DONE
+  2023-06-12 09:01:53 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-12 09:01:53 Laravel\Telescope\Jobs\ProcessPendingUpdates  74.64ms DONE
+  2023-06-12 09:02:05 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-12 09:02:05 Laravel\Telescope\Jobs\ProcessPendingUpdates  61.74ms DONE
+ Horizon started successfully.
+       2023-06-12 09:34:36 App\Events\UnsentServiceUpdated ................ RUNNING
+  2023-06-12 09:34:36 App\Events\UnsentServiceUpdated ........... 64.21ms FAIL
+  2023-06-12 09:34:48 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-12 09:34:48 Laravel\Telescope\Jobs\ProcessPendingUpdates  49.24ms DONE
+  2023-06-12 09:35:00 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-12 09:35:00 Laravel\Telescope\Jobs\ProcessPendingUpdates  49.62ms DONE
+  2023-06-12 09:35:12 Laravel\Telescope\Jobs\ProcessPendingUpdates ... RUNNING
+  2023-06-12 09:35:12 Laravel\Telescope\Jobs\ProcessPendingUpdates  59.28ms DONE
+ Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+      Horizon started successfully.
+     

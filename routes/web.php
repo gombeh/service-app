@@ -46,3 +46,11 @@ Route::get('/update_score', function() {
         ]);
     }
 });
+
+Route::get('/leagues', function() {
+    $leagues = \App\Models\League::with(['members' => fn($query) => $query->orderBy('order', 'asc')])
+        ->orderBy('slug')
+        ->get();
+
+    return view('leagues', ['leagues' => $leagues]);
+});

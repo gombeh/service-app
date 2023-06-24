@@ -18,6 +18,10 @@ return new class extends Migration
             $table->string('league');
             $table->integer('total_members');
             $table->integer('change_count')->nullable();
+            $table->foreignId('prev_config')
+                ->nullable()
+                ->constrained('league_configs', 'id')
+                ->cascadeOnDelete();
             $table->timestamps();
         });
     }

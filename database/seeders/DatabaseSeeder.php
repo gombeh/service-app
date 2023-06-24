@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         LeagueConfig::insert([
             [
                 'league' => 'league_a',
-                'change_count' => 4,
+                'change_count' => 3,
                 'total_members' => 40
             ],
             [

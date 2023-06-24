@@ -114,30 +114,45 @@ class LeagueFactory extends Command
 
                 $upMembers = collect();
                 $downMembers = collect();
+
                 foreach ($leagues as $league) {
-                    $upDiffs = 0;
-                    $downDiffs = 0;
-
                     $members = $league->members()->orderBY('order', 'ASC')->get();
-
-                    $config = LeagueConfig::where('league', $league->slug)->first();
-
-                    if(($diff = $members->count() - $config->total_members) > 0) {
-                        $upDiffs+=$diff;
-                        dump($league->slug);
-                    }
-
-                    if(($diff = $config->total_members - $members->count()) > 0) {
-                        $downDiffs+=$diff;
-                        dump($league->slug);
-                    }
+                    $config = LeagueConfig::with('prevConfig')->where('league', $league->slug)->orderBy(
+                        'id', 'DESC'
+                    )->first();
 
                     $next = $league->slug === 'league_c' ? 'league_b' : 'league_a';
                     $prev = $league->slug === 'league_a' ? 'league_b' : 'league_c';
+                    $balance = [];
+
+
+                    if ($config->prevConfig && $config->total_members !== $members->count()) {
+                        $diff = $config->total_members - $config->prevConfig->total_members;
+                        if ($config->league === 'league_a') {
+                            if ($diff > 0) {
+                                $balance['league_a'] = $diff;
+                            } else {
+                                $balance['league_b'] = abs($diff);
+                            }
+                        }else if($config->league === 'league_c') {
+                            if ($diff > 0) {
+                                $balance['league_c'] = $diff;
+                            } else {
+                                $balance['league_b'] = abs($diff);
+                            }
+                        }
+                    }
 
                     if ($league->slug !== 'league_a') {
-                        $res = $config->change_count + $upDiffs;
-                        $deletedMembers = $members->slice(0, $res);
+                        $lastIndex = $config->change_count;
+
+                        if(in_array($league->slug, array_keys($balance))) {
+                            $lastIndex += $balance[$league->slug];
+                        }
+
+                        dump($lastIndex, $league->slug, $balance);
+
+                        $deletedMembers = $members->slice(0, $lastIndex);
                         $upMembers->push([
                             'league' => $leagues->where('slug', $next)->first(),
                             'members' => $deletedMembers
@@ -145,9 +160,16 @@ class LeagueFactory extends Command
                     }
 
                     if ($league->slug !== 'league_c') {
-                        $lastIndex = $members->count()-1;
-                        $startIndex = $lastIndex - $config->change_count - $downDiffs;
-                        $deletedMembers = $members->slice($startIndex , $lastIndex);
+                        $lastIndex = $members->count() - 1;
+                        $startIndex = $lastIndex - $config->change_count + 1;
+
+                        if(in_array($league->slug, array_keys($balance))) {
+                            $startIndex -= $balance[$league->slug];
+                        }
+
+                        dump($startIndex, $league->slug, $balance);
+
+                        $deletedMembers = $members->slice($startIndex, $lastIndex);
                         $downMembers->push([
                             'league' => $leagues->where('slug', $prev)->first(),
                             'members' => $deletedMembers

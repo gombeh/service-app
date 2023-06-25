@@ -17,8 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
-            $table->timestamp('start_at');
-            $table->timestamp('end_at');
+            $table->timestamp('start_at')->default(now());
+            $table->timestamp('end_at')->default(now());
 
             $table->unique(['slug', 'start_at', 'end_at']);
             $table->timestamps();
